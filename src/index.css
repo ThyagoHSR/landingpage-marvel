@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: linear-gradient(rgba(0.1, 0, 0,1), rgba(0, 1, 0.1,0.1)), url('https://www.papeldeparede.etc.br/fotos/wp-content/uploads/guardians-of-the-galaxy-movie-wallpaper-hd-movie-background1.jpg') top;
+  background-repeat: no-repeat;
+}
+section{
+  margin-top: 13vh;
+}
+img{
+  width: 100px;
+  margin-left: 150px;
+}
+@media (max-width: 667px){
+  body{
+    background: linear-gradient(rgba(0.1, 0, 0,1), rgba(0, 1, 0.1,0.1)), url('https://www.papeldeparede.etc.br/fotos/wp-content/uploads/guardians-of-the-galaxy-movie-wallpaper-hd-movie-background1.jpg') top;
+}
+}
